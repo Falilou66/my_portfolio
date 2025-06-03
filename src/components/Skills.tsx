@@ -55,7 +55,8 @@ const Skills = () => {
     { skill: 'Services réseau (DHCP, DNS, FTP, etc.)', percentage: 90 },
     { skill: 'Sécurité réseau', percentage: 85 },
     { skill: 'Virtualisation', percentage: 80 },
-    { skill: 'Maintenance des périphériques', percentage: 75 },
+    { skill: 'Maintenance des périphériques', percentage: 85 },
+    { skill: 'Pentesting', percentage: 40 },
   ];
   
   const languageSkills = [
@@ -67,16 +68,18 @@ const Skills = () => {
     { skill: 'JavaScript', percentage: 85 },
     { skill: 'Bash', percentage: 70 },
     { skill: 'C', percentage: 65 },
+    { skill: 'Laravel', percentage: 50 },
+    { skill: 'Django', percentage: 75 },
   ];
   
   const softwareSkills = [
-    { skill: 'Laravel', percentage: 80 },
-    { skill: 'Django', percentage: 75 },
-    { skill: 'MySQL/MariaDB', percentage: 85 },
-    { skill: 'PostgreSQL', percentage: 80 },
-    { skill: 'VMware/VirtualBox', percentage: 90 },
-    { skill: 'Ubuntu/Debian', percentage: 85 },
+    
+    { skill: 'SGBD : MySQL - MariaDB - PostgreSQL', percentage: 85 },
+    { skill: 'Simulation réseaux : Cisco packet Tracert, GNS3', percentage: 80 },
+    { skill: 'Virtualisation : VMware/VirtualBox', percentage: 90 },
+    { skill: 'Ubuntu/Debian', percentage: 95 },
     { skill: 'Windows Server', percentage: 80 },
+    { skill: 'Pentest : Metasploit, nmap ...', percentage: 80 },
   ];
 
   return (
@@ -93,7 +96,32 @@ const Skills = () => {
           <SkillCard 
             icon={Server} 
             title="Administration Système" 
-            description="Gestion des systèmes Linux (Ubuntu, Debian) et Windows Server, installation et configuration de services."
+            description="Gestion des systèmes Linux (Ubuntu, Debian) et Windows Server, installation et configuration de services(DHCP,DNS,FTP,SMTP,SSH ...)."
+          />
+          <SkillCard 
+            icon={Server} 
+            title="Support IT" 
+            description="Maintenance des outils matériels et logiciels."
+          />
+          <SkillCard 
+            icon={Server} 
+            title="Administration Réseau" 
+            description="Conception, implémentation et configuration de réseaux informatiques pour les entreprises."
+          />
+          <SkillCard 
+            icon={Shield} 
+            title="Sécurité Réseau" 
+            description="Mise en place de VLAN, NAT, ACL, VPN, firewalls et certificats SSL pour sécuriser les infrastructures."
+          />
+          <SkillCard 
+            icon={Monitor} 
+            title="Virtualisation" 
+            description="Création et gestion d'environnements virtuels avec VMware et VirtualBox."
+          />
+          <SkillCard 
+            icon={Monitor} 
+            title="Pentesting" 
+            description="Test de pénétration dans des systèmes informatiques(application web, réseaux informatiques, ...)."
           />
           <SkillCard 
             icon={Globe} 
@@ -110,16 +138,7 @@ const Skills = () => {
             title="Programmation" 
             description="Développement d'applications en divers langages incluant Python, Java, C et JavaScript."
           />
-          <SkillCard 
-            icon={Shield} 
-            title="Sécurité Réseau" 
-            description="Mise en place de VLAN, NAT, ACL, VPN, firewalls et certificats SSL pour sécuriser les infrastructures."
-          />
-          <SkillCard 
-            icon={Monitor} 
-            title="Virtualisation" 
-            description="Création et gestion d'environnements virtuels avec VMware et VirtualBox."
-          />
+          
         </div>
         
         {/* Skill Bars */}

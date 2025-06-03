@@ -14,7 +14,7 @@ import {
 const Experience = () => {
   const experiences = [
     {
-      title: "Expert en Cybersécurité",
+      title: "Junior en Cybersécurité",
       company: "Projets Personnels & Académiques",
       period: "2021 - 2024",
       icon: Shield,
@@ -22,11 +22,11 @@ const Experience = () => {
       achievements: [
         "Mise en place d'un HackLab avec Kali Linux et Metasploitable2",
         "Configuration de pare-feu et certificats SSL",
-        "Tests de pénétration éthique (phishing, DoS)",
-        "Sécurisation avec Fail2Ban et IPTables",
+        "Tests de pénétration éthique (phishing, DoS, XSS)",
+        "Sécurisation avec Pfsense, snort et IPTables",
         "Analyse de trafic avec Wireshark"
       ],
-      skills: ["Kali Linux", "Pentesting", "SSL", "Firewall", "Wireshark"]
+      skills: ["Kali Linux", "Pentesting", "SSL", "Firewall", "Wireshark","nmap"]
     },
     {
       title: "Administrateur Systèmes & Réseaux",
@@ -50,7 +50,7 @@ const Experience = () => {
       icon: Brain,
       description: "Conception d'un système intelligent de protection",
       achievements: [
-        "Développement full-stack (Django, React, Flutter)",
+        "Développement full-stack (Django, Tailwind, Flutter)",
         "Intégration IoT avec Raspberry Pi",
         "Implémentation ML pour détection visuelle",
         "API REST et authentification JWT",
@@ -127,7 +127,7 @@ const Experience = () => {
               <ul className="space-y-3 text-slate-700 dark:text-slate-300">
                 <li className="flex items-center">
                   <Shield className="h-4 w-4 text-indigo-600 dark:text-indigo-400 mr-3" />
-                  <p>Expert en sécurité réseau et pentesting</p>
+                  <p>Junior en sécurité réseau et pentesting</p>
                 </li>
                 <li className="flex items-center">
                   <Server className="h-4 w-4 text-indigo-600 dark:text-indigo-400 mr-3" />
@@ -156,7 +156,11 @@ const Experience = () => {
               <ul className="space-y-3 text-slate-700 dark:text-slate-300">
                 <li className="flex items-center">
                   <div className="h-4 w-4 text-indigo-600 dark:text-indigo-400 mr-3">•</div>
-                  <p>Animation du UADB Tech Club</p>
+                  <p>Modérateur évènement du UADB Tech Club</p>
+                </li>
+                <li className="flex items-center">
+                  <div className="h-4 w-4 text-indigo-600 dark:text-indigo-400 mr-3">•</div>
+                  <p>Vice coordinateur du UADB Tech Club</p>
                 </li>
                 <li className="flex items-center">
                   <div className="h-4 w-4 text-indigo-600 dark:text-indigo-400 mr-3">•</div>

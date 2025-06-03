@@ -29,7 +29,7 @@ const Hero = () => {
     };
   }, []);
 
-  const expertiseAreas = [
+  const JUNIORiseAreas = [
     {
       icon: Shield,
       title: "Cybersécurité",
@@ -80,7 +80,7 @@ const Hero = () => {
           <br />
           <br />
           <h2 className="text-xl md:text-2xl font-medium mb-6 text-slate-700 dark:text-slate-300 animate-on-scroll opacity-0 transform translate-y-10 transition-all duration-1000 delay-300">
-            EXPERT EN SYSTÈMES, RÉSEAUX ET CYBERSÉCURITÉ
+            JUNIOR EN SYSTÈMES, RÉSEAUX ET CYBERSÉCURITÉ
           </h2>
           
           <p className="text-base md:text-lg text-slate-600 dark:text-slate-400 mb-12 animate-on-scroll opacity-0 transform translate-y-10 transition-all duration-1000 delay-500">
@@ -89,7 +89,7 @@ const Hero = () => {
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 animate-on-scroll opacity-0 transform translate-y-10 transition-all duration-1000 delay-700">
-            {expertiseAreas.map((area, index) => {
+            {JUNIORiseAreas.map((area, index) => {
               const Icon = area.icon;
               return (
                 <div key={index} className="bg-white/80 dark:bg-slate-800/80 backdrop-blur-sm rounded-xl p-6 transform transition-all duration-300 hover:scale-105 hover:shadow-lg group">

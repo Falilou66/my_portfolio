@@ -42,11 +42,11 @@ const Projects = () => {
         "Intégration Raspberry Pi avec capteur PIR pour détection de mouvement",
         "Backend Django avec API REST et stockage local optimisé",
         "Frontend React (web) et Flutter (mobile) pour une expérience unifiée",
-        "Machine Learning avec YOLO pour détection visuelle et analyse audio",
+        "Machine Learning avec Torch et Tensorflow pour détection visuelle",
         "Dashboard temps réel avec historique et notifications",
         "Authentification JWT et gestion sécurisée des données"
       ],
-      technologies: ["Raspberry Pi", "Python", "Django", "React", "Flutter", "TensorFlow", "JWT", "REST API"],
+      technologies: ["Raspberry Pi", "Python", "Django", "Tailwind CSS", "Flutter", "TensorFlow", "JWT", "REST API"],
       category: "ai",
       highlight: true
     },
@@ -73,11 +73,11 @@ const Projects = () => {
       details: [
         "Déploiement complet d'Ubuntu Server avec services essentiels",
         "Configuration DHCP, DNS et SSH optimisée",
-        "Mise en place de Fail2Ban pour protection contre les attaques",
-        "Configuration firewall UFW/IPTables avancée",
+        "Mise en place de Pfsense et snort pour protection contre les attaques",
+        "Configuration firewall IPTables avancée",
         "Monitoring réseau avec Wireshark"
       ],
-      technologies: ["Ubuntu Server", "DHCP", "DNS", "SSH", "Fail2Ban", "UFW", "IPTables"],
+      technologies: ["Ubuntu Server", "DHCP", "DNS", "SSH","FTP", "Pfsense", "IPTables"],
       category: "security"
     },
     {
@@ -107,7 +107,7 @@ const Projects = () => {
         "Migrations et seeding de base de données",
         "Authentification et autorisation"
       ],
-      technologies: ["Laravel", "PHP", "MySQL", "Blade", "Eloquent"],
+      technologies: ["Laravel", "PHP", "MySQL"],
       category: "web"
     },
     {
@@ -122,7 +122,7 @@ const Projects = () => {
         "Gestion des capteurs IoT",
         "Authentification sécurisée"
       ],
-      technologies: ["Flutter", "Dart", "REST API", "Firebase", "Material Design"],
+      technologies: ["Flutter", "Dart", "REST API", "Material Design"],
       category: "mobile"
     },
     {
@@ -137,7 +137,7 @@ const Projects = () => {
         "Tests d'utilisabilité",
         "Guidelines de design"
       ],
-      technologies: ["Figma", "Adobe XD", "Material Design", "Prototyping"],
+      technologies: ["Figma", "Material Design", "Prototyping"],
       category: "design"
     },
     {
@@ -152,7 +152,7 @@ const Projects = () => {
         "Design inspiré du Concise Oxford Dictionary",
         "Fonctionnalités de favoris"
       ],
-      technologies: ["Java", "Swing", "SQLite", "XML"],
+      technologies: ["Java", "Swing", "MySQL", "XML"],
       category: "desktop"
     },
     {
