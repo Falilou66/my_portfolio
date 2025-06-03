@@ -77,7 +77,8 @@ const Hero = () => {
           >
             Fallilou Mbacke GUEYE
           </h1>
-          
+          <br />
+          <br />
           <h2 className="text-xl md:text-2xl font-medium mb-6 text-slate-700 dark:text-slate-300 animate-on-scroll opacity-0 transform translate-y-10 transition-all duration-1000 delay-300">
             EXPERT EN SYSTÈMES, RÉSEAUX ET CYBERSÉCURITÉ
           </h2>
