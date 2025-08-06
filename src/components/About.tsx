@@ -18,7 +18,7 @@ const About = () => {
                 <div className="absolute inset-2 bg-white dark:bg-slate-800 rounded-full flex items-center justify-center">
                   <div className="text-center p-6">
                     <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">Fallilou Mbacke</h3>
-                    <p className="text-indigo-600 dark:text-indigo-400 font-medium mb-4">Étudiant en SRT</p>
+                    <p className="text-indigo-600 dark:text-indigo-400 font-medium mb-4">Technicien SRT</p>
                     <div className="space-y-2">
                       <p className="flex items-center justify-center text-sm text-slate-700 dark:text-slate-300">
                         <MapPin className="h-4 w-4 mr-2 text-indigo-600 dark:text-indigo-400" />
@@ -43,21 +43,25 @@ const About = () => {
           <div className="lg:w-3/5">
             <h3 className="text-2xl font-bold mb-4 text-slate-900 dark:text-white">Qui suis-je?</h3>
             <p className="text-slate-700 dark:text-slate-300 mb-6 leading-relaxed">
-              Je suis un étudiant passionné en troisième année de Système, Réseau et Télécommunication à l'Université Alioune DIOP de Bambey. 
-              Mon parcours combine une solide formation académique avec une expérience pratique dans le support IT, le développement de projets innovants et la cybersécurité.
+              Je suis un technicien diplômé en Systèmes, Réseaux et Télécommunications (mention Très Bien) de l'Université Alioune DIOP de Bambey. 
+              Mon parcours combine une solide formation académique avec une expérience professionnelle pratique dans le support IT, 
+              le développement de projets innovants et la cybersécurité.
             </p>
             <p className="text-slate-700 dark:text-slate-300 mb-6 leading-relaxed">
-              Ma curiosité pour les nouvelles technologies et mon aptitude à résoudre des problèmes complexes me permettent 
-              d'aborder chaque défi avec créativité et rigueur. Je suis particulièrement intéressé par l'IoT, l'IA et la cybersécurité, 
-              comme le démontre mon projet phare RavaGuard.
+              Mon profil polyvalent me permet de concevoir, déployer et sécuriser des solutions informatiques innovantes. 
+              Leadership, rigueur et autonomie caractérisent mon approche, comme le démontre mon rôle de coordinateur du UADB Tech Club 
+              et mes projets concrets à impact comme RavaGuard.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="bg-slate-50 dark:bg-slate-800 p-4 rounded-lg shadow-sm">
                 <h4 className="text-lg font-semibold mb-2 text-slate-900 dark:text-white">Formation</h4>
                 <p className="text-slate-700 dark:text-slate-300">
-                  Licence en Système réseaux et télécommunication (2021-2024)<br />
-                  <span className="text-indigo-600 dark:text-indigo-400">Université Alioune DIOP de Bambey</span>
+                  Licence professionnelle SRT (2022-2025)<br />
+                  <span className="text-indigo-600 dark:text-indigo-400">Université Alioune DIOP de Bambey</span><br />
+                  <span className="text-green-600 dark:text-green-400 font-semibold">Mention : Très Bien</span><br /><br />
+                  Baccalauréat Scientifique S2 (2020-2021)<br />
+                  <span className="text-indigo-600 dark:text-indigo-400">Lycée Zone de Recasement</span>
                 </p>
               </div>
               <div className="bg-slate-50 dark:bg-slate-800 p-4 rounded-lg shadow-sm">
@@ -65,7 +69,7 @@ const About = () => {
                 <div className="space-y-2">
                   <div className="flex items-center text-slate-700 dark:text-slate-300">
                     <Terminal className="h-4 w-4 mr-2 text-indigo-600 dark:text-indigo-400" />
-                    <span>Cybersécurité & Réseaux</span>
+                    <span>Infrastructure & Cybersécurité</span>
                   </div>
                   <div className="flex items-center text-slate-700 dark:text-slate-300">
                     <Code className="h-4 w-4 mr-2 text-indigo-600 dark:text-indigo-400" />
@@ -73,7 +77,7 @@ const About = () => {
                   </div>
                   <div className="flex items-center text-slate-700 dark:text-slate-300">
                     <Server className="h-4 w-4 mr-2 text-indigo-600 dark:text-indigo-400" />
-                    <span>IoT & Intelligence Artificielle</span>
+                    <span>Virtualisation & Services Réseau</span>
                   </div>
                 </div>
               </div>

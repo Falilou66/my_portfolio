@@ -13,7 +13,7 @@ const Footer = () => {
               FM<span className="text-white">Gueye</span>
             </div>
             <p className="text-slate-400 mt-2">
-              Étudiant en Système, Réseau et Télécommunication
+              Technicien en Systèmes, Réseaux et Télécommunications
             </p>
           </div>
           

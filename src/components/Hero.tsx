@@ -80,12 +80,13 @@ const Hero = () => {
           <br />
           <br />
           <h2 className="text-xl md:text-2xl font-medium mb-6 text-slate-700 dark:text-slate-300 animate-on-scroll opacity-0 transform translate-y-10 transition-all duration-1000 delay-300">
-            JUNIOR EN SYSTÈMES, RÉSEAUX ET CYBERSÉCURITÉ
+            TECHNICIEN EN SYSTÈMES, RÉSEAUX ET TÉLÉCOMMUNICATIONS
           </h2>
           
           <p className="text-base md:text-lg text-slate-600 dark:text-slate-400 mb-12 animate-on-scroll opacity-0 transform translate-y-10 transition-all duration-1000 delay-500">
-            Passionné par l'innovation technologique, je développe des solutions de pointe en cybersécurité, 
-            IoT et intelligence artificielle. Créateur de RavaGuard, une solution innovante de protection des cultures.
+            Technicien diplômé en Systèmes Réseaux et Télécommunications (mention Très Bien), passionné par les environnements techniques 
+            alliant infrastructure, cybersécurité, développement et IoT. Je conçois, déploie et sécurise des solutions informatiques innovantes 
+            avec leadership, rigueur et autonomie.
           </p>
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 animate-on-scroll opacity-0 transform translate-y-10 transition-all duration-1000 delay-700">

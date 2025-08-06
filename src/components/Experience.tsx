@@ -14,49 +14,81 @@ import {
 const Experience = () => {
   const experiences = [
     {
-      title: "Junior en Cybersécurité",
-      company: "Projets Personnels & Académiques",
-      period: "2021 - 2024",
-      icon: Shield,
-      description: "Configuration et sécurisation d'infrastructures",
+      title: "Coordinateur",
+      company: "UADB Tech Club",
+      period: "2025 - présent",
+      icon: Users,
+      description: "Leadership technique et animation de la communauté étudiante",
       achievements: [
-        "Mise en place d'un HackLab avec Kali Linux et Metasploitable2",
-        "Configuration de pare-feu et certificats SSL",
-        "Tests de pénétration éthique (phishing, DoS, XSS)",
-        "Sécurisation avec Pfsense, snort et IPTables",
-        "Analyse de trafic avec Wireshark"
+        "Organisation d'événements techniques (Coding Night, Bootcamp, Graduation Day)",
+        "Animation et modération de la commission scientifique",
+        "Encadrement de projets étudiants et mentorat technique",
+        "Création de contenu tech et formation des membres",
+        "Gestion d'équipe et coordination des activités du club"
       ],
-      skills: ["Kali Linux", "Pentesting", "SSL", "Firewall", "Wireshark","nmap"]
+      skills: ["Leadership", "Gestion de projet", "Formation", "Communication", "Animation"]
+    },
+    {
+      title: "Assistant IT",
+      company: "Agence immobilière BICO",
+      period: "2020 - 2023",
+      icon: Server,
+      description: "Support technique et digitalisation des processus",
+      achievements: [
+        "Maintenance des équipements informatiques",
+        "Mise en place de solutions de digitalisation",
+        "Support technique et gestion du parc informatique",
+        "Optimisation des processus métier",
+        "Formation des utilisateurs aux nouveaux outils"
+      ],
+      skills: ["Support IT", "Maintenance", "Digitalisation", "Gestion de parc"]
+    },
+    {
+      title: "Spécialiste Cybersécurité",
+      company: "Projets Académiques & Personnels",
+      period: "2022 - 2025",
+      icon: Shield,
+      description: "Tests d'intrusion et sécurisation d'infrastructures",
+      achievements: [
+        "Tests d'intrusion (DoS, scan de ports, détection de vulnérabilités)",
+        "Configuration de pare-feu Linux (iptables) et pfSense",
+        "Mise en place d'IDS avec Snort pour détection d'intrusions",
+        "Analyse réseau approfondie avec Wireshark et Nmap",
+        "Sécurisation SSL/TLS et gestion de certificats"
+      ],
+      skills: ["Pentesting", "pfSense", "Snort", "iptables", "SSL/TLS", "Wireshark", "Nmap"]
     },
     {
       title: "Administrateur Systèmes & Réseaux",
-      company: "Infrastructure Académique",
+      company: "Projets d'Infrastructure",
       period: "2022 - 2024",
       icon: Server,
-      description: "Gestion d'infrastructures réseau complexes",
+      description: "Conception et déploiement d'infrastructures réseau",
       achievements: [
-        "Configuration de réseaux étendus et routage",
-        "Mise en place de VLANs et ACLs",
-        "Administration de serveurs Linux",
-        "Configuration DHCP, DNS, SSH",
-        "Virtualisation avec VMware"
+        "Configuration de services réseau : DNS, DHCP, SMTP, VOIP",
+        "Routage IP (statique et dynamique : RIP, OSPF, EIGRP)",
+        "Mise en place de VLANs, ACL, NAT et VPN",
+        "Administration Linux (Ubuntu Server) et Windows Server",
+        "Virtualisation avec VMware et VirtualBox",
+        "Active Directory et LDAP"
       ],
-      skills: ["Routage", "ACL", "VLAN", "Linux", "VMware"]
+      skills: ["OSPF", "EIGRP", "VLAN", "ACL", "VMware", "Active Directory", "Linux"]
     },
     {
       title: "Développeur IoT & IA",
       company: "Projet RavaGuard",
-      period: "2023 - 2024",
+      period: "2025 - en cours",
       icon: Brain,
-      description: "Conception d'un système intelligent de protection",
+      description: "Application IoT & IA pour détection d'oiseaux ravageurs",
       achievements: [
-        "Développement full-stack (Django, Tailwind, Flutter)",
-        "Intégration IoT avec Raspberry Pi",
-        "Implémentation ML pour détection visuelle",
-        "API REST et authentification JWT",
-        "Design UX/UI avec Figma"
+        "Développement web (Django) avec API REST sécurisées",
+        "Application mobile Flutter avec authentification JWT",
+        "Modèle IA pour classification d'espèces nuisibles",
+        "Collecte de données via capteur PIR sur Raspberry Pi",
+        "Tableaux de bord temps réel et historique des alertes",
+        "Design UX/UI complet avec Figma"
       ],
-      skills: ["IoT", "IA", "Django", "React", "Flutter"]
+      skills: ["Django", "Flutter", "IA", "IoT", "Raspberry Pi", "JWT", "Figma"]
     }
   ];
 

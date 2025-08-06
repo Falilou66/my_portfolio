@@ -12,6 +12,13 @@ const Contact = () => {
         </h2>
         
         <div className="max-w-4xl mx-auto bg-slate-50 dark:bg-slate-800 p-8 rounded-xl shadow-md">
+          <div className="mb-8 text-center">
+            <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-4">Informations de Contact</h3>
+            <p className="text-slate-600 dark:text-slate-400">
+              Technicien diplômé en Systèmes, Réseaux et Télécommunications - Disponible pour opportunités professionnelles
+            </p>
+          </div>
+          
           <div className="space-y-6">
             <div className="flex items-start">
               <div className="p-3 bg-indigo-100 dark:bg-slate-700 rounded-full mr-4">
@@ -45,7 +52,7 @@ const Contact = () => {
           </div>
           
           <div className="mt-10">
-            <h4 className="text-lg font-semibold text-slate-900 dark:text-white mb-4">Me trouver sur :</h4>
+            <h4 className="text-lg font-semibold text-slate-900 dark:text-white mb-4">Réseaux professionnels :</h4>
             <div className="flex space-x-4">
               <a 
                 href="https://www.linkedin.com/in/fallilou-mbacke-gueye" 
@@ -65,6 +72,43 @@ const Contact = () => {
               >
                 <Github className="h-5 w-5" />
               </a>
+            </div>
+          </div>
+          
+          <div className="mt-10 bg-white dark:bg-slate-900 p-6 rounded-lg">
+            <h4 className="text-lg font-semibold text-slate-900 dark:text-white mb-4">Références Professionnelles</h4>
+            <div className="space-y-4">
+              <div>
+                <h5 className="font-semibold text-slate-900 dark:text-white">Dr Diery NGOM</h5>
+                <p className="text-slate-600 dark:text-slate-400">Enseignant-Chercheur, UADB</p>
+                <div className="flex flex-col sm:flex-row sm:space-x-4 mt-2">
+                  <p className="text-slate-700 dark:text-slate-300">📞 +221 77 428 00 19</p>
+                  <p className="text-slate-700 dark:text-slate-300">📧 diery.ngom@uadb.edu.sn</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="mt-8 bg-gradient-to-r from-indigo-50 to-blue-50 dark:from-slate-700 dark:to-slate-600 p-6 rounded-lg">
+            <h4 className="text-lg font-semibold text-slate-900 dark:text-white mb-2">Langues</h4>
+            <div className="flex flex-wrap gap-4">
+              <div className="flex items-center">
+                <span className="text-slate-700 dark:text-slate-300 mr-2">Français :</span>
+                <div className="flex">
+                  {[1,2,3,4,5].map(i => (
+                    <span key={i} className="text-yellow-400">⭐</span>
+                  ))}
+                </div>
+              </div>
+              <div className="flex items-center">
+                <span className="text-slate-700 dark:text-slate-300 mr-2">Anglais :</span>
+                <div className="flex">
+                  {[1,2,3].map(i => (
+                    <span key={i} className="text-yellow-400">⭐</span>
+                  ))}
+                  <span className="text-slate-400 ml-1">(technique + documentation)</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>

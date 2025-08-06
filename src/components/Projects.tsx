@@ -36,138 +36,144 @@ const Projects = () => {
     {
       id: 1,
       title: "RavaGuard - Protection Intelligente des Cultures",
-      description: "Système IoT & IA pour la détection et la protection contre les oiseaux ravageurs",
+      description: "Application IoT & IA pour la détection d'oiseaux ravageurs avec modèle de classification",
       icon: Brain,
       details: [
-        "Intégration Raspberry Pi avec capteur PIR pour détection de mouvement",
-        "Backend Django avec API REST et stockage local optimisé",
-        "Frontend React (web) et Flutter (mobile) pour une expérience unifiée",
-        "Machine Learning avec Torch et Tensorflow pour détection visuelle",
-        "Dashboard temps réel avec historique et notifications",
-        "Authentification JWT et gestion sécurisée des données"
+        "Développement web avec Django et API REST sécurisées",
+        "Application mobile Flutter avec navigation et dashboard",
+        "Modèle IA pour classification d'espèces nuisibles",
+        "Collecte de données via capteur PIR sur Raspberry Pi",
+        "Authentification JWT et tableaux de bord temps réel",
+        "Historique des alertes et notifications push",
+        "Design UX/UI complet réalisé avec Figma"
       ],
-      technologies: ["Raspberry Pi", "Python", "Django", "Tailwind CSS", "Flutter", "TensorFlow", "JWT", "REST API"],
+      technologies: ["Django", "Flutter", "Python", "IA", "Raspberry Pi", "JWT", "Figma", "REST API"],
       category: "ai",
       highlight: true
     },
     {
       id: 2,
-      title: "HackLab Personnel",
-      description: "Laboratoire de cybersécurité pour tests de pénétration",
+      title: "Infrastructure Réseau Sécurisée avec pfSense",
+      description: "Mise en place d'un réseau d'entreprise sécurisé avec protection contre les attaques",
       icon: Shield,
       details: [
-        "Configuration d'un environnement de test sécurisé avec VMware",
-        "Déploiement de Kali Linux pour tests offensifs",
-        "Installation de Metasploitable2 comme cible d'entraînement",
-        "Configuration d'Ubuntu Server pour services réseau",
-        "Pratique des techniques de pentest éthique"
+        "Configuration de pfSense comme pare-feu principal",
+        "Mise en place de Snort pour détection d'intrusions (IDS)",
+        "Protection contre attaques DoS et scan de ports",
+        "Configuration de VPN et certificats SSL/TLS",
+        "Segmentation réseau avec VLANs et ACL",
+        "Monitoring et analyse de trafic en temps réel"
       ],
-      technologies: ["Kali Linux", "VMware", "Metasploit", "Ubuntu Server", "Wireshark"],
+      technologies: ["pfSense", "Snort", "SSL/TLS", "VPN", "VLAN", "ACL", "Wireshark"],
       category: "security"
     },
     {
       id: 3,
-      title: "Infrastructure Réseau Sécurisée",
-      description: "Configuration et sécurisation d'un serveur Ubuntu",
+      title: "Serveur Linux & Windows avec Services Réseaux",
+      description: "Configuration complète de serveurs avec services réseau essentiels",
       icon: Server,
       details: [
-        "Déploiement complet d'Ubuntu Server avec services essentiels",
-        "Configuration DHCP, DNS et SSH optimisée",
-        "Mise en place de Pfsense et snort pour protection contre les attaques",
-        "Configuration firewall IPTables avancée",
-        "Monitoring réseau avec Wireshark"
+        "Configuration de DNS, DHCP, SMTP, VOIP sur Ubuntu Server",
+        "Mise en place d'Active Directory sur Windows Server",
+        "Configuration de services SSH sécurisés",
+        "Gestion des utilisateurs et permissions LDAP",
+        "Virtualisation avec VMware et VirtualBox",
+        "Monitoring et maintenance des services"
       ],
-      technologies: ["Ubuntu Server", "DHCP", "DNS", "SSH","FTP", "Pfsense", "IPTables"],
+      technologies: ["Ubuntu Server", "Windows Server", "DNS", "DHCP", "SMTP", "VOIP", "Active Directory", "LDAP"],
       category: "security"
     },
     {
       id: 4,
-      title: "Système de Gestion Admin/User",
-      description: "Interface web complète avec gestion des rôles",
-      icon: Database,
+      title: "Réseau avec Routage Dynamique",
+      description: "Déploiement d'un réseau avec routage dynamique OSPF et RIP",
+      icon: Radio,
       details: [
-        "Interface d'administration complète avec CRUD",
-        "Système de connexion et gestion des sessions sécurisé",
-        "Gestion des rôles et permissions",
-        "Interface utilisateur intuitive",
-        "Base de données optimisée"
+        "Configuration de routage dynamique OSPF et RIP",
+        "Mise en place de routage statique pour segments critiques",
+        "Configuration de VLANs pour segmentation réseau",
+        "Implémentation de NAT et ACL pour sécurité",
+        "Tests de connectivité et optimisation des routes",
+        "Documentation complète de l'architecture réseau"
       ],
-      technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
-      category: "web"
+      technologies: ["OSPF", "RIP", "EIGRP", "VLAN", "NAT", "ACL", "GNS3", "Packet Tracer"],
+      category: "security"
     },
     {
       id: 5,
-      title: "Application Laravel",
-      description: "Découverte du framework MVC Laravel",
-      icon: Code,
+      title: "Application de Gestion de Stock",
+      description: "Système de gestion avec interface CRUD et base de données",
+      icon: Database,
       details: [
-        "Architecture MVC complète",
-        "Routing et contrôleurs avancés",
-        "Utilisation de l'ORM Eloquent",
-        "Migrations et seeding de base de données",
-        "Authentification et autorisation"
+        "Interface CRUD complète pour gestion des stocks",
+        "Base de données PostgreSQL optimisée",
+        "Authentification et gestion des sessions",
+        "Interface utilisateur simple et intuitive",
+        "Rapports et statistiques de stock"
       ],
-      technologies: ["Laravel", "PHP", "MySQL"],
+      technologies: ["Django", "PostgreSQL", "HTML", "CSS", "JavaScript"],
       category: "web"
     },
     {
       id: 6,
+      title: "Tests d'Intrusion et Analyse de Vulnérabilités",
+      description: "Tests de pénétration éthique et analyse de sécurité",
+      icon: Eye,
+      details: [
+        "Tests d'intrusion DoS et scan de ports avec Nmap",
+        "Analyse de vulnérabilités sur applications web",
+        "Configuration de pare-feu Linux avec iptables",
+        "Analyse de trafic réseau avec Wireshark",
+        "Documentation des failles et recommandations",
+        "Tests de sécurité sur infrastructures virtualisées"
+      ],
+      technologies: ["Nmap", "Wireshark", "iptables", "Kali Linux", "VMware"],
+      category: "security"
+    },
+    {
+      id: 7,
       title: "RavaGuard Mobile",
       description: "Application mobile Flutter pour le système IoT",
       icon: Smartphone,
       details: [
         "Interface utilisateur Flutter moderne",
-        "Dashboard en temps réel",
+        "Dashboard en temps réel avec graphiques",
         "Système de notifications push",
-        "Gestion des capteurs IoT",
-        "Authentification sécurisée"
+        "Navigation fluide et authentification JWT",
+        "Gestion des capteurs IoT à distance",
+        "Historique des détections et alertes"
       ],
-      technologies: ["Flutter", "Dart", "REST API", "Material Design"],
+      technologies: ["Flutter", "Dart", "JWT", "REST API", "Material Design"],
       category: "mobile"
     },
     {
-      id: 7,
+      id: 8,
       title: "Design UX/UI RavaGuard",
       description: "Conception d'interfaces pour web et mobile",
       icon: Palette,
       details: [
         "Maquettes Figma complètes",
-        "Design system unifié",
-        "Prototypes interactifs",
-        "Tests d'utilisabilité",
-        "Guidelines de design"
+        "Design system unifié et cohérent",
+        "Prototypes interactifs et wireframes",
+        "Interface responsive et accessible",
+        "Guidelines de design et composants réutilisables"
       ],
       technologies: ["Figma", "Material Design", "Prototyping"],
       category: "design"
     },
     {
-      id: 8,
-      title: "Dictionnaire Interactif",
-      description: "Application Java Swing moderne",
-      icon: MonitorSmartphone,
-      details: [
-        "Interface graphique Java Swing",
-        "Recherche de mots optimisée",
-        "Base de données de définitions",
-        "Design inspiré du Concise Oxford Dictionary",
-        "Fonctionnalités de favoris"
-      ],
-      technologies: ["Java", "Swing", "MySQL", "XML"],
-      category: "desktop"
-    },
-    {
       id: 9,
-      title: "Animation UADB Tech Club",
-      description: "Leadership technique et formation",
+      title: "Coordination UADB Tech Club",
+      description: "Leadership technique et organisation d'événements",
       icon: Users,
       details: [
-        "Organisation de soirées de codage",
-        "Formation au développement web",
-        "Mentorat d'étudiants",
-        "Production de contenu pédagogique",
-        "Animation de la communauté tech"
+        "Organisation d'événements (Coding Night, Bootcamp, Graduation Day)",
+        "Animation et modération de la commission scientifique",
+        "Encadrement de projets étudiants et mentorat technique",
+        "Création de contenu tech et formation des membres",
+        "Gestion d'équipe et coordination des activités"
       ],
-      technologies: ["Leadership", "Formation", "Communication", "Gestion de projet"],
+      technologies: ["Leadership", "Gestion de projet", "Formation", "Communication", "Animation"],
       category: "community"
     }
   ];

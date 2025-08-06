@@ -50,36 +50,35 @@ const Skills = () => {
   ];
   
   const technicalSkills = [
-    { skill: 'Administration système et réseau', percentage: 85 },
-    { skill: 'Routage (RIP, OSPF, EIGRP)', percentage: 80 },
-    { skill: 'Services réseau (DHCP, DNS, FTP, etc.)', percentage: 90 },
-    { skill: 'Sécurité réseau', percentage: 85 },
-    { skill: 'Virtualisation', percentage: 80 },
-    { skill: 'Maintenance des périphériques', percentage: 85 },
-    { skill: 'Pentesting', percentage: 40 },
+    { skill: 'Services réseau (DNS, DHCP, SMTP, VOIP)', percentage: 90 },
+    { skill: 'Routage IP (RIP, OSPF, EIGRP)', percentage: 85 },
+    { skill: 'Pare-feux (iptables, pfSense)', percentage: 85 },
+    { skill: 'Supervision et sécurisation (Snort, ACL, NAT, VPN)', percentage: 80 },
+    { skill: 'Virtualisation (VMware, VirtualBox)', percentage: 85 },
+    { skill: 'Active Directory, LDAP', percentage: 75 },
+    { skill: 'Tests d\'intrusion (DoS, scan de ports)', percentage: 70 },
   ];
   
   const languageSkills = [
-    { skill: 'HTML/CSS', percentage: 90 },
-    { skill: 'PHP', percentage: 85 },
-    { skill: 'SQL', percentage: 80 },
-    { skill: 'Java', percentage: 75 },
     { skill: 'Python', percentage: 80 },
+    { skill: 'Java', percentage: 75 },
+    { skill: 'C', percentage: 70 },
     { skill: 'JavaScript', percentage: 85 },
-    { skill: 'Bash', percentage: 70 },
-    { skill: 'C', percentage: 65 },
-    { skill: 'Laravel', percentage: 50 },
+    { skill: 'HTML/CSS', percentage: 90 },
     { skill: 'Django', percentage: 75 },
+    { skill: 'React', percentage: 70 },
+    { skill: 'Flutter', percentage: 75 },
+    { skill: 'SQL', percentage: 80 },
   ];
   
   const softwareSkills = [
-    
-    { skill: 'SGBD : MySQL - MariaDB - PostgreSQL', percentage: 85 },
-    { skill: 'Simulation réseaux : Cisco packet Tracert, GNS3', percentage: 80 },
-    { skill: 'Virtualisation : VMware/VirtualBox', percentage: 90 },
-    { skill: 'Ubuntu/Debian', percentage: 95 },
+    { skill: 'Linux (Ubuntu Server)', percentage: 90 },
     { skill: 'Windows Server', percentage: 80 },
-    { skill: 'Pentest : Metasploit, nmap ...', percentage: 80 },
+    { skill: 'SGBD : PostgreSQL, MySQL, SQLite', percentage: 85 },
+    { skill: 'Outils réseau : GNS3, Packet Tracer', percentage: 85 },
+    { skill: 'Analyse réseau : Wireshark, Nmap', percentage: 80 },
+    { skill: 'Outils dev : Git, GitHub, VS Code, Postman', percentage: 85 },
+    { skill: 'UI/UX : Figma', percentage: 75 },
   ];
 
   return (
