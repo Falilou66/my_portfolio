@@ -76,7 +76,7 @@ const About = () => {
             
             <div className="flex flex-wrap gap-4">
               <a 
-                href="/cv-fallilou-mbacke-gueye.pdf" 
+                href="https://drive.google.com/file/d/13QkrGZi75ok1qM9XkrTKr_MZbiGAVNjN/view?usp=sharing" 
                 download="CV-Fallilou-Mbacke-Gueye.pdf"
                 className="flex items-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-green-500/30"
               >
