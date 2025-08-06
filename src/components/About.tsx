@@ -14,25 +14,16 @@ const About = () => {
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <div className="lg:w-2/5">
             <div className="relative">
-              <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-indigo-600 to-blue-500 dark:from-indigo-400 dark:to-blue-300 rounded-full overflow-hidden relative z-10 shadow-xl transform transition-transform duration-500 hover:scale-105">
-                <div className="absolute inset-2 bg-white dark:bg-slate-800 rounded-full flex items-center justify-center">
-                  <div className="text-center p-6">
-                    <h3 className="text-2xl font-bold text-slate-900 dark:text-white mb-2">Fallilou Mbacke</h3>
-                    <p className="text-indigo-600 dark:text-indigo-400 font-medium mb-4">Technicien SRT</p>
-                    <div className="space-y-2">
-                      <p className="flex items-center justify-center text-sm text-slate-700 dark:text-slate-300">
-                        <MapPin className="h-4 w-4 mr-2 text-indigo-600 dark:text-indigo-400" />
-                        Dakar, Tivaouane Peulh
-                      </p>
-                      <p className="flex items-center justify-center text-sm text-slate-700 dark:text-slate-300">
-                        <Phone className="h-4 w-4 mr-2 text-indigo-600 dark:text-indigo-400" />
-                        +221 78 280 74 90
-                      </p>
-                      <p className="flex items-center justify-center text-sm text-slate-700 dark:text-slate-300">
-                        <Mail className="h-4 w-4 mr-2 text-indigo-600 dark:text-indigo-400" />
-                        falliloumbacke.gueye@uadb.edu.sn
-                      </p>
-                    </div>
+              <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-indigo-600 to-blue-500 dark:from-indigo-400 dark:to-blue-300 rounded-full overflow-hidden relative z-10 shadow-xl transform transition-transform duration-500 hover:scale-105 group">
+                <img 
+                  src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                  alt="Fallilou Mbacke Gueye" 
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6">
+                  <div className="text-center text-white">
+                    <h3 className="text-xl font-bold mb-1">Fallilou Mbacke</h3>
+                    <p className="text-sm">Technicien SRT</p>
                   </div>
                 </div>
               </div>
@@ -84,6 +75,16 @@ const About = () => {
             </div>
             
             <div className="flex flex-wrap gap-4">
+              <a 
+                href="/cv-fallilou-mbacke-gueye.pdf" 
+                download="CV-Fallilou-Mbacke-Gueye.pdf"
+                className="flex items-center px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-green-500/30"
+              >
+                <svg className="h-5 w-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+                Télécharger CV
+              </a>
               <a 
                 href="https://www.linkedin.com/in/fallilou-mbacke-gueye" 
                 target="_blank" 

@@ -1,0 +1,165 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 2000
+>>
+stream
+BT
+/F1 16 Tf
+50 750 Td
+(FALLILOU MBACKE GUEYE) Tj
+0 -30 Td
+/F1 12 Tf
+(Technicien en Systemes, Reseaux et Telecommunications) Tj
+0 -20 Td
+(Mention: Tres Bien) Tj
+0 -40 Td
+(Tel: +221 78 280 74 90) Tj
+0 -20 Td
+(Email: falliloumbacke.gueye@uadb.edu.sn) Tj
+0 -20 Td
+(GitHub: https://github.com/Falilou66) Tj
+0 -20 Td
+(LinkedIn: https://www.linkedin.com/in/fallilou-mbacke-gueye) Tj
+0 -40 Td
+/F1 14 Tf
+(PROFIL) Tj
+0 -20 Td
+/F1 10 Tf
+(Technicien diplome en Systemes Reseaux et Telecommunications \(mention Tres Bien\),) Tj
+0 -15 Td
+(passionne par les environnements techniques alliant infrastructure, cybersecurite,) Tj
+0 -15 Td
+(developpement et IoT. Mon profil polyvalent me permet de concevoir, deployer et) Tj
+0 -15 Td
+(securiser des solutions informatiques innovantes.) Tj
+0 -30 Td
+/F1 14 Tf
+(FORMATION) Tj
+0 -20 Td
+/F1 12 Tf
+(Licence professionnelle SRT - UADB \(2022-2025\)) Tj
+0 -15 Td
+/F1 10 Tf
+(Mention: Tres Bien) Tj
+0 -20 Td
+/F1 12 Tf
+(Baccalaureat Scientifique S2 \(2020-2021\)) Tj
+0 -15 Td
+/F1 10 Tf
+(Lycee Zone de Recasement) Tj
+0 -30 Td
+/F1 14 Tf
+(EXPERIENCE PROFESSIONNELLE) Tj
+0 -20 Td
+/F1 12 Tf
+(Coordinateur - UADB Tech Club \(2025-present\)) Tj
+0 -15 Td
+/F1 10 Tf
+(- Organisation d'evenements techniques) Tj
+0 -12 Td
+(- Animation et moderation de la commission scientifique) Tj
+0 -12 Td
+(- Encadrement de projets etudiants) Tj
+0 -20 Td
+/F1 12 Tf
+(Assistant IT - Agence immobiliere BICO \(2020-2023\)) Tj
+0 -15 Td
+/F1 10 Tf
+(- Maintenance des equipements informatiques) Tj
+0 -12 Td
+(- Mise en place de solutions de digitalisation) Tj
+0 -12 Td
+(- Support technique et gestion du parc informatique) Tj
+0 -30 Td
+/F1 14 Tf
+(COMPETENCES TECHNIQUES) Tj
+0 -20 Td
+/F1 10 Tf
+(Systemes & Reseaux: DNS, DHCP, SMTP, VOIP, OSPF, EIGRP, pfSense, Snort) Tj
+0 -15 Td
+(Cybersecurite: Tests d'intrusion, iptables, Wireshark, Nmap, SSL/TLS) Tj
+0 -15 Td
+(Developpement: Django, React, Flutter, Python, Java, PostgreSQL) Tj
+0 -15 Td
+(Outils: VMware, Active Directory, Git, Figma, VS Code) Tj
+0 -30 Td
+/F1 14 Tf
+(PROJETS PRINCIPAUX) Tj
+0 -20 Td
+/F1 12 Tf
+(RavaGuard - Application IoT & IA) Tj
+0 -15 Td
+/F1 10 Tf
+(Application complete pour detection d'oiseaux ravageurs) Tj
+0 -12 Td
+(Technologies: Django, React, Flutter, IA, Raspberry Pi) Tj
+0 -20 Td
+/F1 12 Tf
+(Infrastructure Reseau Securisee) Tj
+0 -15 Td
+/F1 10 Tf
+(Mise en place de reseaux d'entreprise avec pfSense et Snort) Tj
+0 -20 Td
+/F1 12 Tf
+(Applications de Gestion) Tj
+0 -15 Td
+/F1 10 Tf
+(Developpement d'applications web et mobile pour gestion) Tj
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000002326 00000 n 
+trailer
+<<
+/Size 6
+/Root 1 0 R
+>>
+startxref
+2404
+%%EOF

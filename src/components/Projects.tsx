@@ -36,23 +36,89 @@ const Projects = () => {
     {
       id: 1,
       title: "RavaGuard - Protection Intelligente des Cultures",
-      description: "Application IoT & IA pour la détection d'oiseaux ravageurs avec modèle de classification",
+      description: "Projet principal IoT, IA, Web & Mobile - Application complète pour la détection d'oiseaux ravageurs",
       icon: Brain,
       details: [
-        "Développement web avec Django et API REST sécurisées",
-        "Application mobile Flutter avec navigation et dashboard",
+        "Backend Django avec API REST sécurisées et PostgreSQL",
+        "Frontend React pour interface web administrative",
+        "Application mobile Flutter avec Provider et JWT",
         "Modèle IA pour classification d'espèces nuisibles",
         "Collecte de données via capteur PIR sur Raspberry Pi",
-        "Authentification JWT et tableaux de bord temps réel",
-        "Historique des alertes et notifications push",
-        "Design UX/UI complet réalisé avec Figma"
+        "Tableaux de bord web et mobile temps réel",
+        "Historique des événements et notifications push",
+        "Sécurité d'accès et authentification complète"
       ],
-      technologies: ["Django", "Flutter", "Python", "IA", "Raspberry Pi", "JWT", "Figma", "REST API"],
+      technologies: ["Django", "React", "Flutter", "PostgreSQL", "Python", "IA", "Raspberry Pi", "JWT", "Provider"],
       category: "ai",
       highlight: true
     },
     {
       id: 2,
+      title: "Application Mobile RavaGuard",
+      description: "Version mobile autonome avec interface stylisée et gestion complète des capteurs",
+      icon: Smartphone,
+      details: [
+        "Interface Flutter moderne avec Provider pour state management",
+        "Authentification JWT et gestion sécurisée des tokens",
+        "Dashboard mobile stylisé avec graphiques interactifs",
+        "Historique complet des détections avec filtres",
+        "Gestion des paramètres utilisateur et notifications",
+        "Connexion temps réel avec capteurs distants",
+        "Interface responsive et animations fluides"
+      ],
+      technologies: ["Flutter", "Dart", "JWT", "HTTP", "Provider", "Material Design"],
+      category: "mobile"
+    },
+    {
+      id: 3,
+      title: "Dictionnaire Interactif Java Swing",
+      description: "Application desktop avec interface attrayante inspirée d'Oxford Dictionary",
+      icon: Code,
+      details: [
+        "Interface graphique Java Swing moderne et intuitive",
+        "Design inspiré du Concise Oxford Dictionary",
+        "Système de recherche rapide et efficace",
+        "Base de données locale intégrée",
+        "Affichage structuré des définitions",
+        "Interface responsive et navigation fluide"
+      ],
+      technologies: ["Java", "Java Swing", "SQLite", "UI/UX Design"],
+      category: "desktop"
+    },
+    {
+      id: 4,
+      title: "Plateforme de Gestion des Lignes de Bus",
+      description: "Prototype web avec localisation en temps réel et gestion des itinéraires",
+      icon: MonitorSmartphone,
+      details: [
+        "Carte interactive avec Google Maps API",
+        "Gestion complète des lignes et horaires",
+        "Suivi en temps réel de la position des bus",
+        "Interface administrative pour la gestion des routes",
+        "Système de notifications pour les usagers",
+        "Dashboard de monitoring du trafic"
+      ],
+      technologies: ["HTML", "CSS", "JavaScript", "Google Maps API", "Backend API"],
+      category: "web"
+    },
+    {
+      id: 5,
+      title: "Infrastructure Web Sécurisée",
+      description: "Application de démonstration intégrée à un environnement réseau sécurisé",
+      icon: Shield,
+      details: [
+        "Hébergement sécurisé avec pare-feu Linux configuré",
+        "Serveur web Apache/Django dans environnement protégé",
+        "Simulations d'attaques DoS pour tests de robustesse",
+        "Monitoring de sécurité en temps réel",
+        "Tests de pénétration et analyse de vulnérabilités",
+        "Documentation complète des mesures de sécurité"
+      ],
+      technologies: ["Linux", "Apache", "Django", "iptables", "Monitoring", "Pentesting"],
+      category: "security"
+    },
+    {
+      id: 6,
       title: "Infrastructure Réseau Sécurisée avec pfSense",
       description: "Mise en place d'un réseau d'entreprise sécurisé avec protection contre les attaques",
       icon: Shield,
@@ -68,7 +134,23 @@ const Projects = () => {
       category: "security"
     },
     {
-      id: 3,
+      id: 7,
+      title: "Services Réseaux Multi-Plateformes",
+      description: "Déploiement complet de services réseau sur Ubuntu Server et Windows Server",
+      icon: Server,
+      details: [
+        "Configuration DNS, DHCP, SMTP, VOIP sur Ubuntu Server",
+        "Déploiement Active Directory sur Windows Server",
+        "Routage dynamique avec RIP et OSPF",
+        "Gestion centralisée des utilisateurs et permissions",
+        "Services de messagerie et téléphonie IP",
+        "Monitoring et maintenance des services critiques"
+      ],
+      technologies: ["Ubuntu Server", "Windows Server", "DNS", "DHCP", "SMTP", "VOIP", "Active Directory", "OSPF", "RIP"],
+      category: "security"
+    },
+    {
+      id: 8,
       title: "Serveur Linux & Windows avec Services Réseaux",
       description: "Configuration complète de serveurs avec services réseau essentiels",
       icon: Server,
@@ -84,7 +166,7 @@ const Projects = () => {
       category: "security"
     },
     {
-      id: 4,
+      id: 9,
       title: "Réseau avec Routage Dynamique",
       description: "Déploiement d'un réseau avec routage dynamique OSPF et RIP",
       icon: Radio,
@@ -100,22 +182,23 @@ const Projects = () => {
       category: "security"
     },
     {
-      id: 5,
+      id: 10,
       title: "Application de Gestion de Stock",
-      description: "Système de gestion avec interface CRUD et base de données",
+      description: "Application web de gestion basique pour entreprise avec interface CRUD",
       icon: Database,
       details: [
-        "Interface CRUD complète pour gestion des stocks",
+        "Interface CRUD pour produits et commandes",
         "Base de données PostgreSQL optimisée",
-        "Authentification et gestion des sessions",
-        "Interface utilisateur simple et intuitive",
-        "Rapports et statistiques de stock"
+        "Authentification utilisateur sécurisée",
+        "Interface simple pour ajout et gestion des stocks",
+        "Gestion des commandes et fournisseurs",
+        "Rapports de stock et statistiques"
       ],
-      technologies: ["Django", "PostgreSQL", "HTML", "CSS", "JavaScript"],
+      technologies: ["Django", "HTML/CSS", "PostgreSQL", "Authentication"],
       category: "web"
     },
     {
-      id: 6,
+      id: 11,
       title: "Tests d'Intrusion et Analyse de Vulnérabilités",
       description: "Tests de pénétration éthique et analyse de sécurité",
       icon: Eye,
@@ -131,23 +214,7 @@ const Projects = () => {
       category: "security"
     },
     {
-      id: 7,
-      title: "RavaGuard Mobile",
-      description: "Application mobile Flutter pour le système IoT",
-      icon: Smartphone,
-      details: [
-        "Interface utilisateur Flutter moderne",
-        "Dashboard en temps réel avec graphiques",
-        "Système de notifications push",
-        "Navigation fluide et authentification JWT",
-        "Gestion des capteurs IoT à distance",
-        "Historique des détections et alertes"
-      ],
-      technologies: ["Flutter", "Dart", "JWT", "REST API", "Material Design"],
-      category: "mobile"
-    },
-    {
-      id: 8,
+      id: 12,
       title: "Design UX/UI RavaGuard",
       description: "Conception d'interfaces pour web et mobile",
       icon: Palette,
@@ -162,7 +229,7 @@ const Projects = () => {
       category: "design"
     },
     {
-      id: 9,
+      id: 13,
       title: "Coordination UADB Tech Club",
       description: "Leadership technique et organisation d'événements",
       icon: Users,
