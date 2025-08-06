@@ -16,7 +16,7 @@ const About = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-indigo-600 to-blue-500 dark:from-indigo-400 dark:to-blue-300 rounded-full overflow-hidden relative z-10 shadow-xl transform transition-transform duration-500 hover:scale-105 group">
                 <img 
-                  src="public/falilou.jpeg" 
+                  src="/falilou.jpeg" 
                   alt="Fallilou Mbacke Gueye" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
